@@ -1,0 +1,350 @@
+h1{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 45px;
+font-weight: bold;
+text-align: center;
+background-color:rgb(186, 194, 188);
+color: rgb(0, 0, 0);
+width: 100%;
+border: 3px black solid;
+border-radius: 45px;
+}
+
+.introTekst{
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    background-color:rgb(186, 194, 188);
+    border: 5px black solid;
+    border-radius: 20px;
+    width: 200px;
+    height: 400px;
+    margin: auto;
+    padding-top: 40px;
+    padding-botom: 40px;
+}
+
+.navbar{
+    position: fixed;
+    display: flex;
+    justify-content: Space-evenly;
+    background-color: rgb(0, 0, 0);
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 40px;
+}
+
+li{
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+li:hover{
+    background-color:rgb(51, 51, 51);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    line-height: 45px;
+}
+
+header{
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.verschilHoutAfb{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 5px black solid;
+    border-radius: 50%
+
+}
+
+body{
+    background-image: url(woodworkingBackgroundImage.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+.houtTitels{
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    border-bottom: 3px black solid;
+}
+
+.houtKenmerken{
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+.houtSoorten{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+
+.meerInfo{
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    color: black;
+}
+.meerInfoKnop{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: blue;
+    border-top: 3px black solid;
+    text-align: center;
+}
+
+.hardHoutGrid{
+    display: grid;
+    width: 80%;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr 3fr 3fr;
+    margin: auto;
+}
+
+.hardHout{
+    grid-column: 1 / 6;
+    background-color: green;
+    border: 3px black solid;
+}
+.hardHout1{
+    border: 3px black solid;
+    background-image: url(houtAchtergrond.jpg);
+    transition: background-image;
+    transition-duration: 2s;
+}
+.hardHout1:hover{
+    background-image: url(houtAchtergrond1.jpg);
+}
+
+.hardHout2{
+    border: 3px black solid;
+    background-image: url(houtAchtergrond.jpg);
+    transition: background-image;
+    transition-duration: 2s;
+}
+.hardHout2:hover{
+    background-image: url(houtAchtergrond1.jpg);
+}
+
+.hardHout3{
+    border: 3px black solid;
+    background-image: url(houtAchtergrond.jpg);
+    transition: background-image;
+    transition-duration: 2s;
+}
+.hardHout3:hover{
+    background-image: url(houtAchtergrond1.jpg);
+}
+
+.hardHout4{
+    border: 3px black solid;
+    background-image: url(houtAchtergrond.jpg);
+    transition: background-image;
+    transition-duration: 2s;
+}
+.hardHout4:hover{
+    background-image: url(houtAchtergrond1.jpg);
+}
+
+.hardHout5{
+    border: 3px black solid;
+    background-image: url(houtAchtergrond.jpg);
+    transition: background-image;
+    transition-duration: 2s;
+}
+.hardHout5:hover{
+    background-image: url(houtAchtergrond1.jpg);
+}
+
+.hardHout6{
+    border: 3px black solid;
+    background-image: url(houtAchtergrond.jpg);
+    transition: background-image;
+    transition-duration: 2s;
+}
+.hardHout6:hover{
+    background-image: url(houtAchtergrond1.jpg);
+}
+
+.hardHout7{
+    border: 3px black solid;
+    background-image: url(houtAchtergrond.jpg);
+    transition: background-image;
+    transition-duration: 2s;
+}
+.hardHout7:hover{
+    background-image: url(houtAchtergrond1.jpg);
+}
+
+.hardHout8{
+    border: 3px black solid;
+    background-image: url(houtAchtergrond.jpg);
+    transition: background-image;
+    transition-duration: 2s;
+}
+.hardHout8:hover{
+    background-image: url(houtAchtergrond1.jpg);
+}
+
+.hardHout9{
+    border: 3px black solid;
+    background-image: url(houtAchtergrond.jpg);
+    transition: background-image;
+    transition-duration: 2s;
+}
+.hardHout9:hover{
+    background-image: url(houtAchtergrond1.jpg);
+}
+
+.hardHout10{
+    border: 3px black solid;
+    background-image: url(houtAchtergrond.jpg);
+    transition: background-image;
+    transition-duration: 2s;
+}
+.hardHout10:hover{
+    background-image: url(houtAchtergrond1.jpg);
+}
+
+.hardHout11{
+    border: 3px black solid;
+    background-image: url(houtAchtergrond.jpg);
+    transition: background-image;
+    transition-duration: 2s;
+}
+.hardHout11:hover{
+    background-image: url(houtAchtergrond1.jpg);
+}
+
+.hardHout12{
+    border: 3px black solid;
+    background-image: url(houtAchtergrond.jpg);
+    transition: background-image;
+    transition-duration: 2s;
+}
+.hardHout12:hover{
+    background-image: url(houtAchtergrond1.jpg);
+}
+
+.hardHout13{
+    border: 3px black solid;
+    background-image: url(houtAchtergrond.jpg);
+    transition: background-image;
+    transition-duration: 2s;
+}
+.hardHout13:hover{
+    background-image: url(houtAchtergrond1.jpg);
+}
+
+.hardHout14{
+    border: 3px black solid;
+    background-image: url(houtAchtergrond.jpg);
+    transition: background-image;
+    transition-duration: 2s;
+}
+.hardHout14:hover{
+    background-image: url(houtAchtergrond1.jpg);
+}
+
+.hardHout15{
+    border: 3px black solid;
+    background-image: url(houtAchtergrond.jpg);
+    transition: background-image;
+    transition-duration: 2s;
+}
+.hardHout15:hover{
+    background-image: url(houtAchtergrond1.jpg);
+}
+
+
+
+
+.zachtHoutGrid{
+    display: grid;
+    width: 80%;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr 3fr 3fr;
+    margin: auto;
+}
+
+.zachtHout{
+    grid-column: 1 / 6;
+    background-color: green;
+    border: 3px black solid;
+}
+.zachtHout1{
+    border: 3px black solid;
+    background-image: url(houtAchtergrond2.jpg);
+    transition: background-image;
+    transition-duration: 2s;
+}
+.zachtHout1:hover{
+    background-image: url(houtAchtergrond3.jpg);
+}
+
+.zachtHout2{
+    border: 3px black solid;
+    background-image: url(houtAchtergrond2.jpg);
+    transition: background-image;
+    transition-duration: 2s;
+}
+.zachtHout2:hover{
+    background-image: url(houtAchtergrond3.jpg);
+}
+
+.zachtHout3{
+    border: 3px black solid;
+    background-image: url(houtAchtergrond2.jpg);
+    transition: background-image;
+    transition-duration: 2s;
+}
+.zachtHout3:hover{
+    background-image: url(houtAchtergrond3.jpg);
+}
+
+.zachtHout4{
+    border: 3px black solid;
+    background-image: url(houtAchtergrond2.jpg);
+    transition: background-image;
+    transition-duration: 2s;
+}
+.zachtHout4:hover{
+    background-image: url(houtAchtergrond3.jpg);
+}
+
+.zachtHout5{
+    border: 3px black solid;
+    background-image: url(houtAchtergrond2.jpg);
+    transition: background-image;
+    transition-duration: 2s;
+}
+.zachtHout5:hover{
+    background-image: url(houtAchtergrond3.jpg);
+
+.hardHoutIcoon{
+    height: 20px;
+    width: 20px;
+}
